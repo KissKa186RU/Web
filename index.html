@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Marketplace</title>
+
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="image/logo2" href="images/fav-icon.png" rel="icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/shoes.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>
+	<body>
+
+		<!-- Start preloader -->
+		<div id="preloader"></div>
+		<!-- End preloader -->
+
+		<!-- Search Screen start -->
+		<div class="sidebar-search-wrap">
+		    <div class="sidebar-table-container">
+			    <div class="sidebar-align-container">
+			        <div class="search-closer right-side"></div>
+			        <div class="search-container">
+			          <form method="get" id="search-form">
+			            <input type="text" id="s" class="search-input" name="s" placeholder="Search text">
+			          </form>
+			          <span>Search and Press Enter</span>
+			        </div>
+			    </div>
+		    </div>
+		</div>
+		<!-- Search Screen end -->
+
+		<div id="newslater-popup" class="mfp-hide white-popup-block open align-center">
+			<div class="nl-popup-main">
+			    <div class="nl-popup-inner">
+				    <div class="newsletter-inner">
+				    	<div class="row">
+				    		<div class="col-md-6"></div>
+				    		<div class="col-md-6">
+				    			<div class="mtb-30 text-center">
+							        <h2 class="main_title">Subscribe Emails</h2>
+							        <span class="sub-title mb-30">Sign up & get 10% off</span>
+							        <form>
+							        	<input type="email" placeholder="Email Here..." required>
+							        	<button class="btn-color big-width btn" title="Subscribe">Subscribe</button>
+							        </form>
+							        <div class="check-box mt-30">
+										<span>
+			                            	<input type="checkbox" class="checkbox" id="different-address" name="Ship to a different address?">
+			                            	<label for="different-address">Don`t show this popup again</label>
+			                            </span>
+		                            </div>
+	                            </div>
+					        </div>
+				        </div>
+				    </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="main" id="main">
+			<header class="header transition">
+				<div class="container position-r">
+					<div class="row">
+						<div class="col-lg-2 col-md-4 col-6 align-flax">
+				            <div class="navbar-header">
+					            <a class="navbar-brand" href="index.html">
+					                <img alt="log" src="images/logo.png" class="transition">
+					            </a> 
+				            </div>
+					    </div>
+					    <div class="col-lg-10 col-md-8 col-6 position-i">
+					       	<div class="menu-left transition">
+						        <div class="menu" >
+						            <ul>
+							            <li>
+							                <a href="index.html">Главная</a>
+							            </li>
+							            <li class="dropdown">
+							            	<span class="opener plus"></span>
+							                <a href="shop.html">Красота</a>
+							                <div class="megamenu">
+							                	<div class="megamenu-inner">
+							                		<ul>
+							                			<li><a href="shop-list.html">Украшения</a></li>
+									                    <li><a href="shop-list.html">Очки</a></li>
+									                    <li><a href="shop-list.html">Носовые платки</a></li>
+									                    <li><a href="shop-list.html">Платки и шарфы</a></li>
+									                    <li><a href="shop-list.html">Аксессуары для волос</a></li>
+									                </ul>
+							                	</div>
+							                </div>
+							            </li>
+							            <li class="dropdown">
+							            	<span class="opener plus"></span>
+							                <a href="shop.html">Творчество</a>
+							                <div class="megamenu">
+							                	<div class="megamenu-inner">
+							                		<ul>
+							                			<li><a href="shop-list.html">Рукоделие</a></li>
+									                    <li><a href="shop-list.html">Лепка</a></li>
+									                    <li><a href="shop-list.html">Рисование</a></li>
+									                    <li><a href="shop-list.html">Гончарное дело</a></li>
+									                    <li><a href="shop-list.html">Создание картин и фоторамок</a></li>
+									                </ul>
+							                	</div>
+							                </div>
+							            </li>
+							            <li class="dropdown">
+							            	<span class="opener plus"></span>
+							                <a href="blog-left.html">Услуги</a>
+							                <div class="megamenu">
+							                	<div class="megamenu-inner">
+							                		<ul>
+									                    <li><a href="blog-left.html">Тут могли быть ваши услуги</a></li>
+									                </ul>
+							                	</div>
+							                </div>
+							            </li>
+						            </ul>
+						        </div>
+					        </div>
+					        <div class="search-right">
+					        	<div class="menu-toggle"><span></span></div>
+					        	<div class="search-menu">
+						        	<input type="text" name="search" class="search-input" placeholder="Найти">
+						        	<input type="submit" name="submit" class="search-btn">
+						        	<div class="search-button-i transition">
+						        		<img src="images/search.png" class="position-r transition" alt="search">
+						        	</div>
+						        </div>
+						        <ul class="login-cart">
+						        	<li>
+						        		<div class="login-head">
+								        	<a href="login.html"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+								        </div>
+						        	</li>
+						        	<li>
+						        		<div class="cart-menu">
+								        	<div class="cart-icon position-r">
+								        		<img src="images/car-icon-w.png" class="position-r transition" alt="cart">
+								        	</div>
+								        	<div class="cart-dropdown header-link-dropdown">
+												<ul class="cart-list link-dropdown-list">
+													<li> 
+													  	<a href="javascript:void(0)" class="close-cart"><i class="fa fa-times-circle"></i></a>
+													    <figure> 
+													    	<a href="product-detail.html" class="pull-left"> 
+													    		<img alt="product" src="images/product-1.jpg">
+													    	</a>
+													      	<figcaption> 
+													      		<span>
+													      			<a href="product-detail.html">Men's Full Sleeves Collar Shirt</a>
+													      		</span>
+													        	<p class="cart-price">$14.99</p>
+													        	<div class="product-qty">
+													          		<label>Qty:</label>
+													          		<div class="custom-qty">
+													            		<input type="text" name="qty" maxlength="8" value="1" title="Qty" class="input-text qty" disabled>
+													          		</div>
+													        	</div>
+													      	</figcaption>
+													    </figure>
+													</li>
+													<li> 
+														<a class="close-cart"><i class="fa fa-times-circle"></i></a>
+													    <figure> 
+													    	<a href="product-detail.html" class="pull-left"> 
+													    		<img alt="product" src="images/product-2.jpg">
+													    	</a>
+													      	<figcaption> 
+													      		<span>
+													      			<a href="product-detail.html">Women's Cape Jacket</a>
+													      		</span>
+													        	<p class="cart-price">$14.99</p>
+													        	<div class="product-qty">
+													          		<label>Qty:</label>
+													          		<div class="custom-qty">
+													            		<input type="text" name="qty" maxlength="8" value="1" title="Qty" class="input-text qty" disabled>
+													          		</div>
+													        	</div>
+													      	</figcaption>
+													    </figure>
+													</li>
+												</ul>
+												<p class="cart-sub-totle"> 
+													<span class="pull-left">Cart Subtotal</span> 
+													<span class="pull-right"><strong class="price-box">$29.98</strong></span> 
+												</p>
+												<div class="clearfix"></div>
+												<div class="mt-20"> 
+													<a href="cart.html" class="btn">Cart</a> 
+													<a href="checkout.html" class="btn btn-color right-side">Checkout</a> 
+												</div>
+											</div>
+								        </div>
+						        	</li>
+						        </ul>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</header>
+
+			<section class="home-banner">
+				<div class="container">
+					<div class="home-slider owl-carousel">
+						<div class="banner-bg align-flax">
+							<div class="w-100">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-6 align-flax">
+										<div class="banner-img"><img src="images/banner.jpg" alt="banner"></div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-6 align-flax">
+										<div class="banner-heading w-100">
+											<label class="banner-top">глина со скидкой <span>20%</span></label>
+											<p class="banner-sub">Только сегодня глина со скидкой.....</p>
+											<a href="product-detail.html" class="btn">Shop now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="banner-bg align-flax">
+							<div class="w-100">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-6 align-flax">
+										<div class="banner-img"><img src="images/banner-2.png" alt="banner"></div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-6 align-flax">
+										<div class="banner-heading w-100">
+											<label class="banner-top">Сувениры со скидкой <span>10%</span></label>
+											<p class="banner-sub">Только сегодня скидкой.....</p>
+											<a href="product-detail.html" class="btn">Shop now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="banner-bg align-flax">
+							<div class="w-100">
+								<div class="row">
+									<div class="banner-img"><img src="images/g1.jpg" alt="banner"></div>
+								</div>
+							</div>
+						</div>
+						<div class="banner-bg align-flax">
+							<div class="w-100">
+								<div class="row">
+									<div class="banner-img"><img src="images/g2.jpg" alt="banner"></div>
+								</div>
+							</div>
+						</div>
+						<div class="banner-bg align-flax">
+							<div class="w-100">
+								<div class="row">
+									<div class="banner-img"><img src="images/g3.jpg" alt="banner"></div>
+								</div>
+							</div>
+						</div>
+						<div class="banner-bg align-flax">
+							<div class="w-100">
+								<div class="row">
+									<div class="banner-img"><img src="images/g4.jpg" alt="banner"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+			</section>
+
+			<section class="featured pt-100">
+				<div class="container">
+					<div class="row mb-25">
+						<div class="col-xl-6 col-lg-6 col-md-6">
+							<div class="hading">
+								<h2 class="hading-title">Рекомендуем <span>продукт</span></h2>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6">
+							<ul id="tabs" class="product-isotop filters-product text-right text-uppercase nav nav-tabs" role="tablist">
+								<li role="presentation" class="transition" data-filter="*">
+									<a href="#all" class="active" role="tab" data-toggle="tab">Всё</a>
+								</li>
+								<li role="presentation" class="transition" data-filter=".shoes">
+									<a href="#shoes" role="tab" data-toggle="tab">Мыло</a>
+								</li>
+								<li role="presentation" class="transition" data-filter=".women">
+									<a href="#women" role="tab" data-toggle="tab">Часто просматриваемые</a>
+								</li>
+								<li role="presentation" class="transition" data-filter=".accessories">
+									<a href="#accessories" role="tab" data-toggle="tab">Осталось</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-content">
+						<div role="tabpanel" class="row tab-pane fade active show" id="all">
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-1.jpg" alt="product" class="transition">
+									</a>
+									<div class="new-label">
+										<span class="text-uppercase">New</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup mfp-iframe">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Браслеты</a>
+									<span class="product-pricce">350₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-2.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Браслет</a>
+									<span class="product-pricce">550₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-3.jpg" alt="product" class="transition">
+									</a>
+									<div class="sale-label">
+										<span class="text-uppercase">sale</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Браслет</a>
+									<span class="product-pricce">550₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-4.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната жёлтое</a>
+									<span class="product-pricce">250₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-5.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната зелёное</a>
+									<span class="product-pricce">235₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-6.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Балалайка красное</a>
+									<span class="product-pricce">320₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-7.jpg" alt="product" class="transition">
+									</a>
+									<div class="new-label">
+										<span class="text-uppercase">New</span>
+									</div>
+									<div class="sale-label">
+										<span class="text-uppercase">sale</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Саксофон розовое</a>
+									<span class="product-pricce">345₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-8.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Гитара оранжевое</a>
+									<span class="product-pricce">296₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-9.jpg" alt="product" class="transition">
+									</a>
+									<div class="new-label">
+										<span class="text-uppercase">New</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Гитара Розовое</a>
+									<span class="product-pricce">350₽</span>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="row tab-pane fade" id="shoes">
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-4.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc" data-category="accessories">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната жёлтое</a>
+									<span class="product-pricce">250₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-5.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната зелёное</a>
+									<span class="product-pricce">235₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-6.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Балалайка красное</a>
+									<span class="product-pricce">320₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-7.jpg" alt="product" class="transition">
+									</a>
+									<div class="new-label">
+										<span class="text-uppercase">New</span>
+									</div>
+									<div class="sale-label">
+										<span class="text-uppercase">sale</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Саксофон розовое</a>
+									<span class="product-pricce">345₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-8.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">296₽</a>
+									<span class="product-pricce">$478.00</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-9.jpg" alt="product" class="transition">
+									</a>
+									<div class="new-label">
+										<span class="text-uppercase">New</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Гитара Розовое</a>
+									<span class="product-pricce">350₽</span>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="row tab-pane fade" id="women">
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-3.jpg" alt="product" class="transition">
+									</a>
+									<div class="sale-label">
+										<span class="text-uppercase">sale</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Браслет</a>
+									<span class="product-pricce">550₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-4.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc" data-category="accessories">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната жёлтое</a>
+									<span class="product-pricce">250₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-5.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната зелёное</a>
+									<span class="product-pricce">235₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-6.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Балалайка красное</a>
+									<span class="product-pricce">320₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-7.jpg" alt="product" class="transition">
+									</a>
+									<div class="new-label">
+										<span class="text-uppercase">New</span>
+									</div>
+									<div class="sale-label">
+										<span class="text-uppercase">sale</span>
+									</div>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Саксофон розовое</a>
+									<span class="product-pricce">345₽</span>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="row tab-pane fade" id="accessories">
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-5.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната зелёное</a>
+									<span class="product-pricce">235₽</span>
+								</div>
+							</div>
+							<div class="featured-product mb-25">
+								<div class="product-img transition mb-15">
+									<a href="product-detail.html">
+										<img src="images/product-6.jpg" alt="product" class="transition">
+									</a>
+									<div class="product-details-btn text-uppercase text-center transition">
+										<a href="product-quick-view.html" class="quick-popup">Quick View</a>
+									</div>
+								</div>
+								<div class="product-desc">
+									<a href="product-detail.html" class="product-name text-uppercase">Мыло Балалайка красное</a>
+									<span class="product-pricce">320₽</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="offer-banner pt-70">
+				<div class="container">
+					<div class="offer-bg bg text-center ptb-120">
+						<label class="banner-top text-uppercase">PROMOTION SALE <span>OFF 50%</span></label>
+						<h1 class="banner-title text-uppercase"><span>the</span> summer</h1>
+						<a href="product-detail.html" class="btn">Shop now</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="best-seller pt-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-12 col-md-12">
+							<div class="row">
+								<div class="col-xl-6 col-lg-6 col-md-6">
+									<div class="hading pb-20">
+										<h2 class="hading-title">best <span>seller</span></h2>
+									</div>
+									<div class="seller">
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-1.jpg" alt="shoes" class="transition">
+												</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Браслеты</a>
+												<span class="product-pricce">350₽</span>
+											</div>
+										</div>
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-7.jpg" alt="shoes" class="transition">
+												</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Мыло Саксофон розовое</a>
+												<span class="product-pricce">345₽</span>
+											</div>
+										</div>
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-3.jpg" alt="shoes" class="transition">
+											</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Браслет</a>
+												<span class="product-pricce">550₽</span>
+											</div>
+										</div>
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-1.jpg" alt="shoes" class="transition">
+												</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Браслеты</a>
+												<span class="product-pricce">350₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6">
+									<div class="hading pb-20">
+										<h2 class="hading-title">top <span>seller</span></h2>
+									</div>
+									<div class="seller">
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-4.jpg" alt="shoes" class="transition">
+												</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Мыло Граната жёлтое</a>
+												<span class="product-pricce">250₽</span>
+											</div>
+										</div>
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-2.jpg" alt="shoes" class="transition">
+												</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Браслет</a>
+												<span class="product-pricce">550₽</span>
+											</div>
+										</div>
+										<div class="seller-box align-flax w-100 pb-20">
+											<div class="seller-img">
+												<a href="product-detail.html" class="display-b">
+													<img src="images/product-6.jpg" alt="shoes" class="transition">
+												</a>
+											</div>
+											<div class="seller-contain pl-15">
+												<a href="product-detail.html" class="product-name text-uppercase">Мыло Балалайка красное</a>
+												<span class="product-pricce">320₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="team pt-100">
+				<div class="container">
+					<div class="team-inner owl-carousel">
+						<div class="team-slide text-center">
+							<div class="team-img position-r">
+								<img src="images/comment-img2.jpg" alt="team">
+								<span class="quote-c"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+							</div>
+							<div class="team-desc">
+								<p class="member-detail">Все очень круто, особенно поделки из бисера</p>
+								<h3 class="member-name text-uppercase">Сергей Струихин</h3>
+							</div>
+						</div>
+						<div class="team-slide text-center">
+							<div class="team-img position-r">
+								<img src="images/comment-img3.jpg" alt="team">
+								<span class="quote-c"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+							</div>
+							<div class="team-desc">
+								<p class="member-detail">Товары огонь!</p>
+								<h3 class="member-name text-uppercase">Миша Перервенко</h3>
+							</div>
+						</div>
+						<div class="team-slide text-center">
+							<div class="team-img position-r">
+								<img src="images/comment-img1.jpg" alt="team">
+								<span class="quote-c"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+							</div>
+							<div class="team-desc">
+								<p class="member-detail">Спасибо за классный магазин!</p>
+								<h3 class="member-name text-uppercase">Артём Плохих</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+			<section class="newsletter pt-100">
+				<div class="container">
+					<div class="newsletter-inner text-center ptb-100">
+						<h2 class="newsletter-title">Sign up for Newsletter</h2>
+						<p class="newsletter-sub">Wants to get latest updates! sign up for Free</p>
+						<form>
+						  <div class="form-group">
+						    <input type="email" class="form-control" placeholder="Your email address" required>
+						  </div>
+						  <button type="submit" class="form-btn text-uppercase">
+							<span class="sub-r">Subscribe</span> 
+							<i class="fa fa-send icon-r"></i>
+						</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<div class="top-scrolling">
+				<a href="#main" class="scrollTo"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script>
+			/* ------------ Newslater-popup JS Start ------------- */
+				$(window).on('load', function(){
+					setTimeout(function(){
+						mfp = $.magnificPopup.instance; 
+						if(!mfp.isOpen) {
+						    jQuery.magnificPopup.open({
+						    	items: {src: '#newslater-popup'},type: 'inline'
+						    }, 0);
+						}
+					},10000)
+				});
+		    /* ------------ Newslater-popup JS End ------------- */
+		</script>
+	</body>
+
+</html>
